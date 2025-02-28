@@ -29,7 +29,7 @@
     "protocol": "https",
     "api_key": "ioSOZJSh4ybsdBz4zqS1HZQWwpXHCKtM",
     "index_name": "padp_places",
-    "query_by": "name,names",
+    "query_by": "name",
     "default_sort": "name"
   },
   "core_data": {
