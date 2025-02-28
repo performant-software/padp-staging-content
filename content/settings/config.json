@@ -1,4 +1,9 @@
 {
+  "map": {
+    "max_zoom": 14,
+    "zoom_to_place": true,
+    "geometry": "geometry"
+  },
   "content": ["paths", "posts"],
   "i18n": {
     "default_locale": "en",
@@ -15,19 +20,20 @@
     "cluster_radius": 6,
     "result_card": {
       "title": "name"
-    }
+    },
+    "route": "/events"
   },
   "typesense": {
-    "host": "1vyxlhdzsnjie975p-1.a1.typesense.net",
+    "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
     "port": 443,
     "protocol": "https",
-    "api_key": "2bPTbng2DB59xshFE4CM6lFQeKCrms6Y",
-    "index_name": "places",
+    "api_key": "ioSOZJSh4ybsdBz4zqS1HZQWwpXHCKtM",
+    "index_name": "padp_places",
     "query_by": "name,names",
     "default_sort": "name"
   },
   "core_data": {
-    "url": "https://app.coredata.cloud",
-    "project_ids": [48]
+    "url": "https://staging.coredata.cloud",
+    "project_ids": [116]
   }
 }
