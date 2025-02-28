@@ -1,4 +1,9 @@
 {
+  "map": {
+    "max_zoom": 14,
+    "zoom_to_place": true,
+    "geometry": "geometry"
+  },
   "content": ["paths", "posts"],
   "i18n": {
     "default_locale": "en",
