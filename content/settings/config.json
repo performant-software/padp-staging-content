@@ -35,5 +35,9 @@
   "core_data": {
     "url": "https://staging.coredata.cloud",
     "project_ids": [116]
+  },
+  "customization": {
+    "header_title": true,
+    "footer_title": true
   }
 }
