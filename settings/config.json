@@ -1,0 +1,34 @@
+{
+  "content": ["paths", "posts"],
+  "i18n": {
+    "default_locale": "en",
+    "locales": ["en"]
+  },
+  "layers": [
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
+    }
+  ],
+  "search": {
+    "cluster_radius": 6,
+    "result_card": {
+      "title": "name"
+    },
+    "route": "/events"
+  },
+  "typesense": {
+    "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+    "port": 443,
+    "protocol": "https",
+    "api_key": "ioSOZJSh4ybsdBz4zqS1HZQWwpXHCKtM",
+    "index_name": "padp_places",
+    "query_by": "name,names",
+    "default_sort": "name"
+  },
+  "core_data": {
+    "url": "https://staging.coredata.cloud",
+    "project_ids": [116]
+  }
+}
