@@ -1,13 +1,13 @@
 {
-  "map": {
-    "max_zoom": 14,
-    "zoom_to_place": true,
-    "geometry": "943059f4-94fb-4dd1-b00f-ad37918c84b0.geometry"
-  },
-  "content": ["paths", "posts"],
+  "content": [
+    "paths",
+    "posts"
+  ],
   "i18n": {
     "default_locale": "en",
-    "locales": ["en"]
+    "locales": [
+      "en"
+    ]
   },
   "layers": [
     {
@@ -16,8 +16,12 @@
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
     }
   ],
+  "map": {
+    "geometry": "943059f4-94fb-4dd1-b00f-ad37918c84b0.geometry",
+    "max_zoom": 14,
+    "zoom_to_place": true
+  },
   "search": {
-    "cluster_radius": 6,
     "result_card": {
       "title": "name"
     },
@@ -34,7 +38,9 @@
   },
   "core_data": {
     "url": "https://staging.coredata.cloud",
-    "project_ids": [116]
+    "project_ids": [
+      "116"
+    ]
   },
   "branding": {
     "header_hide_title": false,
