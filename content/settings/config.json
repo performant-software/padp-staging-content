@@ -45,6 +45,6 @@
   "branding": {
     "header_hide_title": false,
     "footer_hide_title": false,
-    "footer_login": false
+    "footer_login": true
   }
 }
