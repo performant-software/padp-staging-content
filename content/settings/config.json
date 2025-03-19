@@ -22,10 +22,10 @@
     "zoom_to_place": true
   },
   "search": {
-    "facets": [
+    "facets": [{
       "name": "943059f4-94fb-4dd1-b00f-ad37918c84b0.names_facet",
       "type": "select"
-    ],
+    }],
     "result_card": {
       "title": "name"
     },
