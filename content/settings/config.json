@@ -34,7 +34,13 @@
     "api_key": "Qu4sjurXtgQKXIX4pxUyjmiaOtjP7YPS",
     "index_name": "padp_events",
     "query_by": "name",
-    "default_sort": "name"
+    "default_sort": "name",
+    "facets": {
+      "exclude": [
+        "8f82dc19-311c-4818-91f5-0b254057ce87.event_range_facet",
+        "943059f4-94fb-4dd1-b00f-ad37918c84b0.event_range_facet"
+      ]
+    }
   },
   "core_data": {
     "url": "https://staging.coredata.cloud",
