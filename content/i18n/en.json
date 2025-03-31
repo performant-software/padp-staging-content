@@ -9,5 +9,6 @@
   "t_relatedPeople": "Related People",
   "t_relatedPeopleEmpty": "No related people",
   "t_root": "Events",
-  "t_relatedMedia": "Related Media"
+  "t_relatedMedia": "Related Media",
+  "t_index_events": "Events"
 }
