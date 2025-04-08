@@ -65,6 +65,27 @@
           ]
         }
       }
+    },
+    {
+      "name": "people",
+      "route": "/people",
+      "map": {
+        "geometry": "6c58f6af-94e9-48ac-941c-498e85ab3362.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "Qu4sjurXtgQKXIX4pxUyjmiaOtjP7YPS",
+        "index_name": "padp_people",
+        "query_by": "name",
+        "default_sort": "name"
+      }
     }
   ]
 }
