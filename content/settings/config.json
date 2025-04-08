@@ -81,7 +81,7 @@
         "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "Qu4sjurXtgQKXIX4pxUyjmiaOtjP7YPS",
+        "api_key": "fJr1a9G307zqpTpkGkDak6Lw7ahxXJPw",
         "index_name": "padp_people",
         "query_by": "name",
         "default_sort": "name"
