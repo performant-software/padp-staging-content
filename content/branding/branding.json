@@ -1,0 +1,9 @@
+{
+  "title": "Pan-African Data Project",
+  "font_name": "Afacad",
+  "primary_color": "#101010",
+  "secondary_color": "#0E6F50",
+  "footer": {
+    "allow_login": true
+  }
+}
