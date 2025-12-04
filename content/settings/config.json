@@ -4,7 +4,12 @@
     "footer_hide_title": false,
     "footer_login": true
   },
-  "content": { 
+  "detail_pages": [
+    "events",
+    "people",
+    "organizations"
+  ],
+  "content": {
     "collections": [
       "paths",
       "posts"
@@ -13,13 +18,9 @@
   "core_data": {
     "url": "https://staging.coredata.cloud",
     "project_ids": [
-      "116"
+      "230"
     ]
   },
-  "detail_pages": [
-    "events",
-    "people"
-  ],
   "i18n": {
     "default_locale": "en",
     "locales": [
@@ -33,18 +34,31 @@
       "url": "https://api.maptiler.com/maps/dataviz/style.json?key=WLMbLZP1AwK3zUFTeheB"
     }
   ],
+  "result_filtering": {
+    "events": {
+      "exclude": [
+        "a69b5ef5-f119-4b2f-8a33-dfce360e172d"
+      ]
+    },
+    "people": {
+      "exclude": [
+        "3d0b932c-fec0-4b83-97aa-63ab4ccc0657",
+        "1bf54ef5-adba-45bb-9ee3-3d3a5f78de01"
+      ]
+    }
+  },
   "search": [
     {
       "name": "events",
       "route": "/events",
       "facets": [
         {
-          "name": "943059f4-94fb-4dd1-b00f-ad37918c84b0.names_facet",
+          "name": "cb9e196b-0151-4584-a295-454404aff84b.names_facet",
           "type": "select"
         }
       ],
       "map": {
-        "geometry": "943059f4-94fb-4dd1-b00f-ad37918c84b0.geometry",
+        "geometry": "cb9e196b-0151-4584-a295-454404aff84b.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -63,9 +77,11 @@
         "query_by": "name",
         "default_sort": "name",
         "facets": {
-          "exclude": [
-            "8f82dc19-311c-4818-91f5-0b254057ce87.event_range_facet",
-            "943059f4-94fb-4dd1-b00f-ad37918c84b0.event_range_facet"
+          "include": [
+            "start_year_facet",
+            "end_year_facet",
+            "cb9e196b-0151-4584-a295-454404aff84b.names_facet",
+            "0512f56e-385d-4f2c-8e4c-61968f84212c.name_facet"
           ]
         }
       }
@@ -74,7 +90,7 @@
       "name": "people",
       "route": "/people",
       "map": {
-        "geometry": "6c58f6af-94e9-48ac-941c-498e85ab3362.geometry",
+        "geometry": "e9e676dc-5297-4227-ab01-fb710b7f67ce.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -88,8 +104,58 @@
         "api_key": "fJr1a9G307zqpTpkGkDak6Lw7ahxXJPw",
         "index_name": "padp_people",
         "query_by": "name",
-        "default_sort": "name"
+        "default_sort": "name",
+        "facets": {
+          "include": [
+            "ea3f1de5-9122-4962-90a9-858c0483b9e7_facet",
+            "event_range_facet",
+            "9dd32cae-d1bc-48ad-8245-1000346b3386.name_facet",
+            "0512f56e-385d-4f2c-8e4c-61968f84212c.start_year_facet",
+            "0512f56e-385d-4f2c-8e4c-61968f84212c.end_year_facet",
+            "0512f56e-385d-4f2c-8e4c-61968f84212c.name_facet",
+            "ea3f1de5-9122-4962-90a9-858c0483b9e7_facet",
+            "0512f56e-385d-4f2c-8e4c-61968f84212c.names_facet"
+          ]
+        }
       }
+    },
+    {
+      
+      "name": "organizations",
+      "route": "/organizations",
+      "facets": [
+        {
+          "name": "7e4cc022-7fe4-47d4-823b-5f5fa69298e8.names_facet",
+          "type": "select"
+        }
+      ],
+      "map": {
+        "geometry": "7e4cc022-7fe4-47d4-823b-5f5fa69298e8.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "timeline": {
+        "date_range_facet": "84b4aa28-be46-474a-acd7-30bfcf6a444c.start_year_facet",
+        "event_path": "84b4aa28-be46-474a-acd7-30bfcf6a444c"
+      },
+      "typesense": {
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "DXMrSPNPrYYhUkeu4LdzdzQu8Yr5iBRq",
+        "index_name": "padp_organizations",
+        "query_by": "name",
+        "default_sort": "name",
+        "facets": {
+          "include": [
+            "84b4aa28-be46-474a-acd7-30bfcf6a444c.start_year_facet",
+            "7e4cc022-7fe4-47d4-823b-5f5fa69298e8.names_facet",
+            "9dd32cae-d1bc-48ad-8245-1000346b3386.name_facet"
+          ]
+        }
     }
   ]
 }
