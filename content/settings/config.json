@@ -29,6 +29,7 @@
       "en"
     ]
   },
+  "gallery": "https://staging.coredata.cloud/core_data/public/v1/items/10aa7539-2f72-4209-99ae-cefc95bfc5b7/manifests?project_ids=194",
   "layers": [
     {
       "name": "Maptiler DataViz Style",
