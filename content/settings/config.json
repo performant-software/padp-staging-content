@@ -5,11 +5,11 @@
     "footer_login": true
   },
   "detail_pages": {
-    "models": [
-      "events",
-      "people",
-      "organizations"
-    ]
+    "models": {
+      "events": {},
+      "organizations": {},
+      "people": {}
+    }
   },
   "content": {
     "collections": [
