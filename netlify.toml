@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/*"
+  to = "https://padp-staging.netlify.app/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "https://padp.staging.performant.studio/admin/:splat"
+  status = 301
+  force = true
